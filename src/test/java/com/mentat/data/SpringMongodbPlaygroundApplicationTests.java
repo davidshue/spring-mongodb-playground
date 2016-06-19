@@ -22,7 +22,7 @@ public class SpringMongodbPlaygroundApplicationTests {
 
 	@Test
 	public void testDefaultSettings() throws Exception {
-		assertThat(outputCapture.toString(), containsString("firstName:Alice, lastName:Smith"));
+		assertThat(outputCapture.toString(), containsString("firstName:Alice, lastName:Smith, kids:[brandon, sophia]"));
 	}
 
 }

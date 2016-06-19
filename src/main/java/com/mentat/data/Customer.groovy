@@ -16,5 +16,7 @@ class Customer {
 	String firstName
 	String lastName
 
+	List<String> kids
+
 	String getId() {id}
 }
